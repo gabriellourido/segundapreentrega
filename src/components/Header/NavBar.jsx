@@ -8,7 +8,20 @@ export function NavBar(){
             <div className="logoYtitulo">
                 <Link to="/"><img className="logo" src={logo} alt="Logo de Tienda"/></Link>
                 <Link to="/"><h2 className="titulo">Tienda de Tecnología</h2></Link>
-            </div>       
+            </div>    
+
+            <ul className="btn-container">
+                <li className="btn">
+                    <NavLink to="/categoria/altaResolucion">Alta resolucion</NavLink>
+                </li>
+                <li className="btn">
+                    <NavLink to="/categoria/smartTV">Smart TV</NavLink> 
+                </li>
+                <li className="btn">
+                    <NavLink to="/categoria/curvo">Curvo</NavLink> 
+                </li>
+            </ul>
+
             <Link to= "/carrito">
                 <CartWidget/>
             </Link>

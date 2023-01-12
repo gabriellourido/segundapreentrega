@@ -8,7 +8,7 @@ export default function Item({producto}) {
       <div className='cardData'>
         <h2>{producto.titulo}</h2>
         <span className='cardPrecio'>${producto.precio}</span>
-        <Link to={`/detalle/${producto.id}`}>Ver Mas</Link>
+        <Link to={`/detalle/${producto.id}`} className='cardDetalles'>Ver Mas</Link>
       </div>
     </div>
   )

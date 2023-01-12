@@ -11,15 +11,15 @@ function App() {
       <NavBar/>
       <Routes>  
         <Route path='/' element={
-          <ItemListContainer title="Bienvenido a nuestra tienda"/>
+          <ItemListContainer title="Bienvenido a nuestra Tienda"/>
         } />
 
         <Route path='/categoria/:nombreCategoria' element={
-          <ItemListContainer title="Bienvenido a nuestra tienda"/>
+          <ItemListContainer title="Bienvenido a nuestra Tienda"/>
         } />
         
         <Route path='/detalle/:id' element={
-          <ItemDetailContainer title="Bienvenido a nuestra tienda"/>
+          <ItemDetailContainer title="Bienvenido a nuestra Tienda"/>
         } />
 
         <Route path='/carrito' element={

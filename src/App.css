@@ -6,17 +6,16 @@
 
 body {
     font-family: sans-serif;
-    background-image: radial-gradient(rgb(37, 37, 37), rgb(12, 12, 12));
+    background-image: radial-gradient(rgb(41, 76, 143), rgba(64, 100, 218, 0.781));
 }
 a{
     text-decoration: none ;
 }
 
-/* --------------------------------------------------------------------------------------------- */
 /* NAVBAR */
 
 .nav {
-    background-image: radial-gradient(rgb(37, 37, 37),rgb(29, 29, 29));
+    background-image: radial-gradient(rgb(20, 25, 100),rgb(8, 38, 83));
     color: white;
     display: flex;
     justify-content: space-between;
@@ -31,10 +30,6 @@ a{
     align-items: center;
 }
 
-.logoYtitulo:hover{
-    background-image: radial-gradient(rgb(85, 85, 85),rgb(48, 48, 48));
-    border-radius: 10px;
-}
 .titulo{
     margin: 10px;
     width: 200px;
@@ -63,12 +58,12 @@ a{
 }
 
 .btn:hover{
-    background-image: radial-gradient(rgb(85, 85, 85),rgb(48, 48, 48));
+    background-image: radial-gradient(rgb(29, 100, 128),rgb(25, 159, 177));
     border-radius: 10px;
 }
 
 .active{ 
-    text-decoration: overline #800101 3px;
+    text-decoration: overline #01804b 3px;
 }
 
 /* CartWidget */
@@ -77,22 +72,16 @@ a{
     align-items: center;
 }
 
-.logoYnot:hover{
-    background-image: radial-gradient(rgb(85, 85, 85),rgb(48, 48, 48));
-    height: 60px;
-    border-radius: 60px;
-}
 
 .notification{
     margin-right: 5px;
-    padding: 5px;
+    padding: 3px;
     border-radius: 10px;
     background-image: linear-gradient(to right, rgb(177, 5, 5), rgb(112, 0, 0));
     color: white;
 }
 
 
-/* --------------------------------------------------------------------------------------------- */
 /* MAIN */
 .container {
     display: flex;
@@ -104,7 +93,6 @@ a{
 .bienvenida{
     color: white;
     font-size: 50px;
-    text-shadow: rgb(49, 0, 0) 3px 3px;
     margin: 50px;
 }
 
@@ -119,7 +107,7 @@ a{
     margin: 30px;
     border-radius: 10px;
     padding: 6px;
-    background-image: radial-gradient(rgb(148, 148, 148),rgb(97, 97, 97));
+    background-image: radial-gradient(rgb(73, 133, 212),rgb(12, 57, 109));
 }
 
 .cardData {
@@ -135,31 +123,21 @@ a{
 .cardPrecio {
     margin: 18px;
     font-size: 20px;
-} 
-
-.cardData a{
-    background-image: radial-gradient(rgb(129, 0, 0), rgb(56, 1, 1));
     padding: 10px;
+    background-color: #071a4246;
     border-radius: 10px;
-    margin-bottom: 10px; 
-    color: white;  
 }
-
-.cardData a:hover{
-    background-image: radial-gradient(rgb(156, 0, 0), rgb(94, 0, 0));  
+.cardDetalles{
+    padding: 10px;
+    background-color: #6ea7c246;
+    border-radius: 5px;
 }
-
 
 .item img {
     border-radius: 8px;
     padding: 5px;
 }
 
-.item:hover {
-    box-shadow: 3px 3px 1px 1px #800101;
-}
-
-/* ------------------------------------------------------------------------ */
 /* DETAIL */
 
 .containerDetail {
@@ -176,7 +154,8 @@ a{
 }
 
 .containerDetail img:hover {
-    box-shadow: 3px 3px 1px 1px #800101;
+    transform: scale(1.4);
+    border-radius: 10px;
 }
 
 .containerDetail article {

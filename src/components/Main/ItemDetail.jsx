@@ -3,7 +3,7 @@ import React from 'react'
 export default function ItemDetail({item}) {
   return (
     <div className='containerDetail'>
-      <img src={item.img} alt="unafoto" />
+      <img src={item.img} alt="pantalla" />
 
       <article>
         <h2>{item.titulo}</h2>

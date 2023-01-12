@@ -6,7 +6,7 @@ export function CartWidget() {
     <>
       <div className="logoYnot">
         <img className="logoCarrito" src={icono} alt="imagenDeCarrito"></img>
-        <span className="notification">1</span>
+        <span className="notification">2</span>
       </div>
     </>
   );
