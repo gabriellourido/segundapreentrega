@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Item({producto}) {
   return (
     <div className='item'>
-      <img src={producto.img} alt={producto.titulo}/>
+      <img src={producto.img} alt={producto.titulo} className="imgCard"/>
       <div className='cardData'>
         <h2>{producto.titulo}</h2>
         <span className='cardPrecio'>${producto.precio}</span>
